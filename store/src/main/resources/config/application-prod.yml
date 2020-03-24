@@ -57,10 +57,18 @@ spring:
   liquibase:
     contexts: prod
   mail:
-    host: localhost
-    port: 25
-    username:
-    password:
+    host: smtp.qq.com
+    port: 465
+    username: 4438707@qq.com
+    password: ngspstkfisnjcaid
+    protocol: smtp
+    properties:
+      tls: false
+      auth: true
+      mail:
+        smtp:
+          ssl:
+            enable: true
   thymeleaf:
     cache: true
   sleuth:
@@ -126,7 +134,8 @@ jhipster:
         token-validity-in-seconds: 86400
         token-validity-in-seconds-for-remember-me: 2592000
   mail: # specific JHipster mail property, for standard properties see MailProperties
-    base-url: http://my-server-url-to-change # Modify according to your server's URL
+    from: 4438707@qq.com
+    base-url: http://127.0.0.1:8080 # Modify according to your server's URL  http://www.ustcdata.cn
   metrics:
     logs: # Reports metrics in the logs
       enabled: false
