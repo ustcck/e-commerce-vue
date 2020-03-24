@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "serverPort": "8082",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": true,
+    "baseName": "notification",
+    "buildTool": "maven",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en", "zh-cn"],
+    "messageBroker": false,
+    "nativeLanguage": "zh-cn",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "applicationType": "microservice",
+    "packageName": "com.ustcck.notification",
+    "packageFolder": "com/ustcck/notification",
+    "jhipsterVersion": "6.8.0",
+    "creationTimestamp": 1585037280810,
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "OGY0NjMwMGUwMGExODcwY2EzNmFjNzJlMjYwODgwOGVjZTVlY2NlYjliYzk5ZDEyYTUzZWQ4YmIwMjJmNDliYTU4NzU3YTMwMGZmYjUyYTg3MzUyYjJhMDdkYjY0NzU1YjhjNDYwNGVhZjY5ZmI0NjBmNzgyNTQ4MzJmMWU0NGI=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ]
+  },
+  "entities": ["Notification"]
+}

@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "clientFramework": "angularX",
+    "serverPort": "8080",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": false,
+    "baseName": "store",
+    "buildTool": "maven",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en", "zh-cn"],
+    "messageBroker": false,
+    "nativeLanguage": "zh-cn",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "skipClient": false,
+    "testFrameworks": ["protractor"],
+    "websocket": false,
+    "applicationType": "gateway",
+    "packageName": "com.ustcck.store",
+    "packageFolder": "com/ustcck/store",
+    "useSass": true,
+    "jhipsterVersion": "6.8.0",
+    "creationTimestamp": 1585037280810,
+    "skipServer": false,
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "jwtSecretKey": "OWI1ZDM1MmRhMGY4OWFkMjc4ZTExYWQyNzAyYzQxYjVlMWE3MTRhZjU1NDkwMWQwNGNlODk4YWI3YTJlYmJkNWJjOWI1ZGUwMzFlYzE5NWQyYjgyNTk3ZmZiMjYzNjFhMTFkODRkYWQ5OTMxNTMxMGJiZjM0ZDYwZWRlYWYwMWM=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ]
+  },
+  "entities": ["Product", "ProductCategory", "Customer", "ProductOrder", "OrderItem", "Invoice", "Shipment", "Notification"]
+}

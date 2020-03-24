@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "serverPort": "8081",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": true,
+    "baseName": "invoice",
+    "buildTool": "maven",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en", "zh-cn"],
+    "messageBroker": false,
+    "nativeLanguage": "zh-cn",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "applicationType": "microservice",
+    "packageName": "com.ustcck.invoice",
+    "packageFolder": "com/ustcck/invoice",
+    "jhipsterVersion": "6.8.0",
+    "creationTimestamp": 1585037280810,
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "YzY3MDYyNTRlMzRlMWRlOWYyN2Q4M2MzODVhMTM4NmQ3ODQwYTU4ZGFiYjQwMTIzMGU5NDQyYTAzY2JkMTk5YmJmZjY3ZTEyMDZmYzIzNDgwNjcwMTdmNzljZWE0ZDUyMmIxOGZmZTRlNjgyZGRkMzVkNjc3YTJiY2RiYWU2YjQ=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ]
+  },
+  "entities": ["Invoice", "Shipment"]
+}

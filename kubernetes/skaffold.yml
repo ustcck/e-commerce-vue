@@ -1,0 +1,18 @@
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+    - image: ustcck/store
+      context: ../store
+      jib: {}
+    - image: ustcck/invoice
+      context: ../invoice
+      jib: {}
+    - image: ustcck/notification
+      context: ../notification
+      jib: {}
+  tagPolicy:
+    envTemplate:
+      template: '{{.IMAGE_NAME}}:latest'
+deploy:
+  kustomize: {}
