@@ -15,9 +15,9 @@
 
 logging:
   level:
-    ROOT: DEBUG
-    io.github.jhipster: DEBUG
-    com.ustcck.store: DEBUG
+    ROOT: TRACE
+    io.github.jhipster: TRACE
+    com.ustcck.store: TRACE
 
 eureka:
   instance:
